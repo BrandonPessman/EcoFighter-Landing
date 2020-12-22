@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/EcoFighter-Landing/static/css/main.6684bb90.chunk.css",
+    "main.js": "/EcoFighter-Landing/static/js/main.e0f3b75e.chunk.js",
+    "main.js.map": "/EcoFighter-Landing/static/js/main.e0f3b75e.chunk.js.map",
+    "runtime-main.js": "/EcoFighter-Landing/static/js/runtime-main.4cbd9c81.js",
+    "runtime-main.js.map": "/EcoFighter-Landing/static/js/runtime-main.4cbd9c81.js.map",
+    "static/js/2.efe76596.chunk.js": "/EcoFighter-Landing/static/js/2.efe76596.chunk.js",
+    "static/js/2.efe76596.chunk.js.map": "/EcoFighter-Landing/static/js/2.efe76596.chunk.js.map",
+    "index.html": "/EcoFighter-Landing/index.html",
+    "static/css/main.6684bb90.chunk.css.map": "/EcoFighter-Landing/static/css/main.6684bb90.chunk.css.map",
+    "static/js/2.efe76596.chunk.js.LICENSE.txt": "/EcoFighter-Landing/static/js/2.efe76596.chunk.js.LICENSE.txt",
+    "static/media/img7.bfef5e4a.png": "/EcoFighter-Landing/static/media/img7.bfef5e4a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4cbd9c81.js",
+    "static/js/2.efe76596.chunk.js",
+    "static/css/main.6684bb90.chunk.css",
+    "static/js/main.e0f3b75e.chunk.js"
+  ]
+}
