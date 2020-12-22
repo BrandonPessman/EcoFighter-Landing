@@ -1,6 +1,6 @@
 {
-  "homepage": "http://brandonpessman.github.io/EcoFighter-Landing",
-  "name": "landing",
+  "homepage": "https://EcoFighter.app",
+  "name": "ecofighter-landing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
