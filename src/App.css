@@ -3,7 +3,6 @@ body, html {
   font-family: 'Poppins', sans-serif;
   color: #333;
   max-width: 1920px;
-  min-width: 1200px;
   margin: auto;
 }
 
@@ -39,13 +38,33 @@ ul {
   overflow: hidden;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 1000px) {
   ul {
-    padding: 20px 100px;
+    padding: 20px 10px;
   }
   .my-container {
-    padding: 20px 100px;
+    padding: 20px 10px;
+  }
+  .special-underline {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .mobile-header {
+    display: block;
+  }
+  .mobile-benefits {
+    display: block;
+  }
+  #panel-benefits {
+    display: none;
+  }
+  #panel-features {
+    display: none;
+  }
+  .mobile-features {
+    display: block;
   }
 }
 
@@ -57,6 +76,15 @@ ul {
   .my-container {
     padding: 20px 100px;
   }
+  .mobile-header {
+    display: none;
+  }
+  .mobile-benefits {
+    display: none;
+  }
+  .mobile-features {
+    display: none;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -67,6 +95,15 @@ ul {
   .my-container {
     padding: 20px 200px;
   }
+  .mobile-header {
+    display: none;
+  }
+  .mobile-benefits {
+    display: none;
+  }
+  .mobile-features {
+    display: none;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -76,6 +113,15 @@ ul {
   }
   .my-container {
     padding: 20px 350px;
+  }
+  .mobile-header {
+    display: none;
+  }
+  .mobile-benefits {
+    display: none;
+  }
+  .mobile-features {
+    display: none;
   }
 }
 
