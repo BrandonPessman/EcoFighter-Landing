@@ -19,17 +19,10 @@ function App() {
       <div className="my-container">
         <center>
          <div className="header">
-            <div className="header-text">
-              <h1 style={{marginBottom: '20px'}}>Sustainability made Fun</h1>
-              <h2 style={{marginBottom: '20px', color: 'black'}}>Our Mission is to get people around the world to think about and visualize their Sustainable Impact through habit building.</h2>
-              <a href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank"><img src={AppleButton} style={{height: '50px'}} /></a>
-              <a href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank"><img src={GoogleButton} style={{height: '50px', marginLeft: '5px'}} /></a>
-            </div>
-            <img className="header-image" alt="Top-down view of houses with trees around them." style={{marginTop: '00px', width: '100%', borderRadius: '16px'}} src={ImageOne} />
-          </div>
+             </div>
           <div className="mobile-header">
-            <h1 style={{marginBottom: '20px'}}>Sustainability made Fun</h1>
-            <h2 style={{marginBottom: '20px', color: 'black'}}>Our Mission is to get people around the world to think about and visualize their Sustainable Impact through habit building.</h2>
+            <h1 style={{marginBottom: '20px', fontSize: '24px'}}>Sustainability made Fun</h1>
+            <h3 style={{marginBottom: '20px', color: 'black'}}>Our Mission is to get people around the world to think about and visualize their Sustainable Impact through habit building.</h3>
             <img alt="Top-down view of houses with trees around them." style={{marginTop: '10px', width: '100%', borderRadius: '16px'}} src={ImageOne} />
           </div>
         </center>
@@ -146,7 +139,7 @@ function App() {
         </div>
 
         <div className="mobile-benefits" style={{padding: '10px'}}>
-          <center><h1 style={{marginBottom: '10px', marginTop: '50px', fontWeight: '500', fontSize: '54px'}}>Benefits</h1></center>
+          <center><h1 style={{marginBottom: '20px', marginTop: '50px', fontWeight: '500', fontSize: '54px'}}>Benefits</h1></center>
           <Row style={{marginBottom: '20px'}}>
             <Col xs="auto" style={{position: 'relative'}}>
               <h1 style={{fontWeight: '500', lineHeight: '40px', marginBottom: '20px', fontSize: '24px', textDecoration: 'underline', textDecorationColor: '#730df1', textDecorationThickness: '3px'}}>Greener Society</h1>
@@ -184,7 +177,7 @@ function App() {
       </div>
       <center>
       <div style={{width: '100%', backgroundColor: '#3c077d', height: '400px', position: 'relative', margin: 'auto'}}>
-        <div style={{margin: '0', position: 'absolute', top: '50%', msTransform: 'translate(-50%, -50%)', transform: 'translate(-50%, -50%)', left: '50%', marginRight: '-50%'}}>
+        <div style={{margin: '0', position: 'absolute', top: '50%', msTransform: 'translate(-50%, -50%)', transform: 'translate(-50%, -50%)', left: '50%', marginRight: '-50%', padding: '10px'}}>
             <h1 style={{color: 'white'}}>Interested in downloading our app?</h1>
             <br />
             <br />
