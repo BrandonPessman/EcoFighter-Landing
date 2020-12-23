@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="page">
       <ul>
-        <li><a href="default.asp" style={{fontSize: '24px', fontWeight: '800', color: '#3c077d', paddingLeft: '0', position: 'relative'}}>EcoFighter<a href="aboust.asp" style={{position: 'absolute', top: -20, right: -55, color: '#61657f', padding: '5px', borderRadius: '16px', zIndex: '-1', fontSize: '11px'}}>Beta</a></a></li>
+        <li><a href="default.asp" style={{fontSize: '24px', fontWeight: '800', color: '#3c077d', paddingLeft: '0', position: 'relative'}}>EcoFighter<a href="aboust.asp" style={{position: 'absolute', top: -12, right: -51, color: '#61657f', padding: '5px', borderRadius: '16px', zIndex: '-1', fontSize: '11px'}}>.app</a></a></li>
         <a href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank"><li className="button-link" style={{float: "right", marginLeft: '15px'}}><a href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank" style={{color: 'white'}}>Join Waiting List</a></li></a>
         <li style={{float: "right"}}><a className="special-underline"  href="contact.asp">Problem</a></li>
         <li style={{float: "right"}}><a className="special-underline" href="about.asp">Benefits</a></li>
