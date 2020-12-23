@@ -21,7 +21,7 @@ function App() {
          <div className="header">
             <div className="header-text">
               <h1 style={{marginBottom: '20px'}}>Sustainability made Fun</h1>
-              <h2 style={{marginBottom: '20px'}}>Our Mission is to get people around the world to think about and visualize their Sustainable Impact through habit building.</h2>
+              <h2 style={{marginBottom: '20px', color: 'black'}}>Our Mission is to get people around the world to think about and visualize their Sustainable Impact through habit building.</h2>
               <a href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank"><img src={AppleButton} style={{height: '50px'}} /></a>
               <a href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank"><img src={GoogleButton} style={{height: '50px', marginLeft: '5px'}} /></a>
             </div>
