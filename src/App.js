@@ -22,8 +22,8 @@ function App() {
          <div className="header-text">
               <h1 style={{marginBottom: '20px'}}>Sustainability made Fun</h1>
               <h2 style={{marginBottom: '20px', color: 'black'}}>Our Mission is to get people around the world to think about and visualize their Sustainable Impact through habit building.</h2>
-              <a href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank"><img src={AppleButton} style={{height: '50px'}} /></a>
-              <a href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank"><img src={GoogleButton} style={{height: '50px', marginLeft: '5px'}} /></a>
+              {/* <a href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank"><img src={AppleButton} style={{height: '50px'}} /></a>
+              <a href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank"><img src={GoogleButton} style={{height: '50px', marginLeft: '5px'}} /></a> */}
             </div>
             <img className="header-image" alt="Top-down view of houses with trees around them." style={{marginTop: '00px', width: '100%', borderRadius: '16px'}} src={ImageOne} />
           
