@@ -1,18 +1,18 @@
 import './App.css';
 import ImageOne from './images/img.jpg'
-import AppleButton from './images/apple-store.png'
-import GoogleButton from './images/google-play.png'
+// import AppleButton from './images/apple-store.png'
+// import GoogleButton from './images/google-play.png'
 import GreenImage from './images/green3.jpg'
 import ImpactImage from './images/impact2.jpg'
 import CommunityImage from './images/community2.jpg'
-import { Container, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 function App() {
   return (
-    <div className="page">
+    <div className="page" role="main">
       <ul>
-        <li><a href="default.asp" style={{fontSize: '24px', fontWeight: '800', color: '#3c077d', paddingLeft: '0', position: 'relative'}}>EcoFighter<a href="aboust.asp" style={{position: 'absolute', top: -12, right: -51, color: '#61657f', padding: '5px', borderRadius: '16px', zIndex: '-1', fontSize: '11px'}}>.app</a></a></li>
-        <a href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank"><li className="button-link" style={{float: "right", marginLeft: '15px'}}><a href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank" style={{color: 'white'}}>Join the Waitlist</a></li></a>
+        <li><a href="default.asp" style={{marginLeft: 0, fontSize: '24px', fontWeight: '800', color: '#3c077d', paddingLeft: '0', position: 'relative'}}>EcoFighter<a href="aboust.asp" style={{position: 'absolute', top: -12, right: -51, color: '#61657f', padding: '5px', borderRadius: '16px', zIndex: '-1', fontSize: '11px'}}>.app</a></a></li>
+        <a href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank" rel="noreferrer"><li className="button-link" style={{float: "right", marginLeft: '15px'}}><a href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank" rel="noreferrer" style={{color: 'white'}}>Join the Waitlist</a></li></a>
         <li style={{float: "right"}}><a className="special-underline" href="#panel-benefits">Benefits</a></li>
         <li style={{float: "right"}}><a className="special-underline" href="#panel-features">Features</a></li>
       </ul>
@@ -115,12 +115,12 @@ function App() {
             </div>
             </Col>
             <Col>
-              <img src={GreenImage} style={{width: '100%', borderRadius: '16px'}} />
+              <img src={GreenImage} style={{width: '100%', borderRadius: '16px'}} alt="woman with a bike on the street in front of the ocean" />
             </Col>
           </Row>
           <Row style={{marginBottom: '200px'}}>
             <Col>
-              <img src={ImpactImage} style={{width: '100%', borderRadius: '16px'}} />
+              <img src={ImpactImage} style={{width: '100%', borderRadius: '16px'}} alt="woman posing on a mountain with hands in the air, looking into the distance" />
             </Col>
             <Col style={{position: 'relative'}}>
             <div style={{margin: '0', position: 'absolute', top: '50%', msTransform: 'translateY(-50%)', transform: 'translateY(-50%)'}}>
@@ -141,7 +141,7 @@ function App() {
             </div>
             </Col>
             <Col>
-              <img src={CommunityImage} style={{width: '100%', borderRadius: '16px'}} />
+              <img src={CommunityImage} style={{width: '100%', borderRadius: '16px'}} alt="a woman and a man relaxing with their dog and coffee outside" />
             </Col>
           </Row>
         </div>
@@ -151,7 +151,7 @@ function App() {
           <Row style={{marginBottom: '20px'}}>
             <Col xs="auto" style={{position: 'relative'}}>
               <h1 style={{fontWeight: '500', lineHeight: '40px', marginBottom: '20px', fontSize: '24px', textDecoration: 'underline', textDecorationColor: '#730df1', textDecorationThickness: '3px'}}>Greener Society</h1>
-              <img src={GreenImage} style={{width: '100%', borderRadius: '16px', marginBottom: '10px'}} />
+              <img src={GreenImage} style={{width: '100%', borderRadius: '16px', marginBottom: '10px'}} alt="woman with a bike on the street in front of the ocean" />
             </Col>
             <Col xs="auto">
               <h3 style={{lineHeight: '40px'}}>
@@ -162,7 +162,7 @@ function App() {
           <Row style={{marginBottom: '20px'}}>
             <Col xs="auto" style={{position: 'relative'}}>
               <h1 style={{fontWeight: '500', lineHeight: '40px', marginBottom: '20px', fontSize: '24px', textDecoration: 'underline', textDecorationColor: '#730df1', textDecorationThickness: '3px'}}>Knowing your Impact</h1>
-              <img src={ImpactImage} style={{width: '100%', borderRadius: '16px', marginBottom: '10px'}} />
+              <img src={ImpactImage} style={{width: '100%', borderRadius: '16px', marginBottom: '10px'}} alt="woman posing on a mountain with hands in the air, looking into the distance" />
             </Col>
             <Col xs="auto">
               <h3 style={{lineHeight: '40px'}}>
@@ -173,7 +173,7 @@ function App() {
           <Row style={{marginBottom: '20px'}}>
             <Col xs="auto" style={{position: 'relative'}}>
               <h1 style={{fontWeight: '500', lineHeight: '40px', marginBottom: '20px', fontSize: '24px', textDecoration: 'underline', textDecorationColor: '#730df1', textDecorationThickness: '3px'}}>Community Building</h1>
-              <img src={CommunityImage} style={{width: '100%', borderRadius: '16px', marginBottom: '10px'}} />
+              <img src={CommunityImage} style={{width: '100%', borderRadius: '16px', marginBottom: '10px'}} alt="a woman and a man relaxing with their dog and coffee outside" />
             </Col>
             <Col xs="auto">
               <h3 style={{lineHeight: '40px'}}>
@@ -189,7 +189,7 @@ function App() {
             <h1 style={{color: 'white'}}>Interested in downloading our app?</h1>
             <br />
             <br />
-            <a className="button-link" href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank" style={{color: 'white', padding: '30px 50px', marginTop: '40px', position: 'relative', fontSize: '22px', fontWeight: '500'}}>Join the Waitlist</a>
+            <a className="button-link" href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank" rel="noreferrer" style={{color: 'white', padding: '30px 50px', marginTop: '40px', position: 'relative', fontSize: '22px', fontWeight: '500'}}>Join the Waitlist</a>
         </div>
       </div>
       </center>
