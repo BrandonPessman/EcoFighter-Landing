@@ -1,5 +1,5 @@
 import './App.css';
-import ImageOne from './images/img.jpg'
+import ImageOne from './images/img.png'
 // import AppleButton from './images/apple-store.png'
 // import GoogleButton from './images/google-play.png'
 import GreenImage from './images/green3.jpg'
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="page" role="main">
       <ul>
-        <li><a href="default.asp" style={{marginLeft: 0, fontSize: '24px', fontWeight: '800', color: '#3c077d', paddingLeft: '0', position: 'relative'}}>EcoFighter<a href="aboust.asp" style={{position: 'absolute', top: -12, right: -51, color: '#61657f', padding: '5px', borderRadius: '16px', zIndex: '-1', fontSize: '11px'}}>.app</a></a></li>
+        <li><a href="/" style={{marginLeft: 0, fontSize: '24px', fontWeight: '800', color: '#3c077d', paddingLeft: '0', position: 'relative'}}>EcoFighter<a href="/" style={{position: 'absolute', top: -12, right: -51, color: '#61657f', padding: '5px', borderRadius: '16px', zIndex: '-1', fontSize: '11px'}}>.app</a></a></li>
         <a href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank" rel="noreferrer"><li className="button-link" style={{float: "right", marginLeft: '15px'}}><a href="https://mailchi.mp/957a6d7b289c/beta-signups" target="_blank" rel="noreferrer" style={{color: 'white'}}>Join the Waitlist</a></li></a>
         <li style={{float: "right"}}><a className="special-underline" href="#panel-benefits">Benefits</a></li>
         <li style={{float: "right"}}><a className="special-underline" href="#panel-features">Features</a></li>
