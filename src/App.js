@@ -126,7 +126,7 @@ function App() {
             <div style={{margin: '0', position: 'absolute', top: '50%', msTransform: 'translateY(-50%)', transform: 'translateY(-50%)'}}>
               <h1 style={{fontWeight: '500', lineHeight: '40px', marginBottom: '20px', fontSize: '24px', paddingLeft: '80px', textDecoration: 'underline', textDecorationColor: '#730df1', textDecorationThickness: '3px'}}>Knowing your Impact</h1>
               <h3 style={{lineHeight: '40px', paddingLeft: '80px'}}>
-                We believe in visualizing your impact. By building a habit and tracking it EcoFighter, we are able to visualize your growth and ultimately visualize your impact. This is a great benefit because it can push you through roadblocks and keep you going.
+                We believe in visualizing your impact. By building a habit and tracking it, we are able to visualize your growth and ultimately visualize your impact. This is a great benefit because it can push you through roadblocks and keep you going.
               </h3>
             </div>
             </Col>
